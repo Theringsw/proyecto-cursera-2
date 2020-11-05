@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ContactoApp</string>
+    <string name="NombreCompleto">Nombre Completo</string>
+    <string name="Telefono">Télefono</string>
+    <string name="Email">Email</string>
+    <string name="Descripcion">Descripción Contacto</string>
+    <string name="btnSiguiente">Siguiente</string>
+    <string name="Titulo">Confirmar Datos</string>
+    <string name="FechaNac">Fecha Nacimiento:</string>
+    <string name="Tel">Tel:</string>
+    <string name="Email2">Email:</string>
+    <string name="Desc">Descripcion:</string>
+    <string name="btnEditarDatos">Editar Datos</string>
+    <string name="PruebaName">Prueba</string>
+    <string name="PruebaFechaNac">13/04/1998</string>
+    <string name="PruebaTel">099444844</string>
+    <string name="PruebaEmail">prueba@gmail.com</string>
+    <string name="PruebaDesc">Probando123</string>
+</resources>

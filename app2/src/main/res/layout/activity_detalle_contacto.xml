@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetalleContacto">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvEtiquetaTitulo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Titulo"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"
+                android:textSize="@dimen/sizeTitleEdit"
+                android:layout_marginTop="@dimen/top"/>
+
+            <TextView
+                android:id="@+id/NameEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/PruebaName"
+                android:textSize="@dimen/sizeNameEdit"
+                android:layout_marginLeft="@dimen/margin_editText"
+                android:layout_marginTop="@dimen/margin_editText"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="@dimen/margin_editText"
+                android:layout_marginTop="@dimen/margin_editText">
+
+                <TextView
+                    android:id="@+id/tvEtiquetaFecha"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/FechaNac"
+                    android:textSize="@dimen/sizeText"/>
+
+                <TextView
+                    android:id="@+id/tvFechaEdit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/PruebaFechaNac"
+                    android:textSize="@dimen/sizeText"
+                    android:layout_marginLeft="@dimen/margin_editText"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="@dimen/margin_editText"
+                android:layout_marginTop="@dimen/margin_editText">
+
+                <TextView
+                    android:id="@+id/tvEtiquetaTel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Tel"
+                    android:textSize="@dimen/sizeText"/>
+
+                <TextView
+                    android:id="@+id/tvTelEdit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/PruebaTel"
+                    android:textSize="@dimen/sizeText"
+                    android:layout_marginLeft="@dimen/margin_editText"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="@dimen/margin_editText"
+                android:layout_marginTop="@dimen/margin_editText">
+
+                <TextView
+                    android:id="@+id/tvEtiquetaEmail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Email2"
+                    android:textSize="@dimen/sizeText"/>
+
+                <TextView
+                    android:id="@+id/tvEmailEdit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/PruebaEmail"
+                    android:textSize="@dimen/sizeText"
+                    android:layout_marginLeft="@dimen/margin_editText"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="@dimen/margin_editText"
+                android:layout_marginTop="@dimen/margin_editText">
+
+                <TextView
+                    android:id="@+id/tvEtiquetaDesc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Desc"
+                    android:textSize="@dimen/sizeText"/>
+
+                <TextView
+                    android:id="@+id/tvDescEdit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/PruebaDesc"
+                    android:textSize="@dimen/sizeText"
+                    android:lines="3"
+                    android:layout_marginLeft="@dimen/margin_editText"
+                    android:layout_marginRight="@dimen/margin_editText"/>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnEditarDatos"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:text="@string/btnEditarDatos"
+                android:layout_gravity="center_horizontal"
+                android:theme="@style/MiBotonRaized"
+                android:layout_marginTop="@dimen/top"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
